@@ -1,0 +1,15 @@
+{
+  "name": "movistar",
+  "description": "Diseño alternativo a la pagina de movistar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "tailwindcss": "^3.4.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styles": "npx tailwindcss -i ./styles/input.css -o ./styles/App.css --watch"
+  },
+  "author": "Angel",
+  "license": "ISC"
+}
